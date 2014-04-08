@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+mysql = {
+    'host': 'localhost',
+    'username': 'root',
+    'password': 'l1n@d3MySQL!'
+}
