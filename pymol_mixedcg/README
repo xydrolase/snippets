@@ -1,0 +1,3 @@
+A PyMOL extension for building mixed coarse grained model. 
+
+See `mixedcg.py` for more details.
