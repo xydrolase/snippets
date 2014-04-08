@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+COURSES_TO_WATCH = {
+        'BCB568': 'http://brendelgroup.org/teaching/bcb568S11schedule.php'
+}
+
+OAUTH_CONSUMER_KEY = "" 
+OAUTH_CONSUMER_SECRET = ""

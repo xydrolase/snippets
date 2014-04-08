@@ -1,0 +1,44 @@
+BCB Reptile
+===========
+
+Installtion
+-----------
+Following softwares are required for running BCB Reptile:
+    * git (>=1.5)
+
+Following packages/modules are requird:
+    * tweepy (https://github.com/joshthecoder/tweepy)
+
+Configuration
+-------------
+Modify `conf.py` for courses to watch and also your Twitter App
+OAuth consumer key/secret.
+
+  CONFIGURATIONS:
+    
+    COURSES_TO_WATCH = {
+        'COURSE_101' : 'http://example.edu/course101/',
+        'COURSE_102' : {'
+            'uri' : 'http://example.edu/course102/',
+            'headers' : {Headers to send},
+            'follow' : True,
+        }
+    }
+
+After configured settings for BCB Reptile, run following commands
+to initialize BCB Reptile:
+
+    $ python init.py
+
+    This script will grab latest course web pages specified in your
+    settings, and commit all of them to a local git repository.
+
+    Further updates on these pages then could be tracked through
+    `git diff` functionality.
+
+    $ python twitter.py
+
+    This script will guide you to grant Twitter account 
+    authorization to BCB Reptile. 
+
+    Follow instructions prompted by this script and everything is set!
